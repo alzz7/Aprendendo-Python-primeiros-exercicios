@@ -29,10 +29,12 @@ print('------------')
 print('SORTEIO DE ALUNOS')
 print('-------------')
 
-random.shuffle(lista)
 
 print(f'Os alunos são: {lista} e o escolhido para apagar o quadro foi o {random.choice(lista)}')
 
-print(f'A ordem é {random.shuffle(lista)}')
+random.shuffle(lista)
+
+print(f'A ordem aleatoria de apresentação é {lista}')
+
 
 
