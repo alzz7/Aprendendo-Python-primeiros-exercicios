@@ -1,14 +1,19 @@
+# exercicio 16
 import math
 import random
 n = float(input('Digite um número: '))
 
 print(f'O número inteiro é: {math.trunc(n)}')
 
+# exercicio 17
+
 cateto1 = int(input('Digite o lado do primeiro cateto:'))
 cateto2 = int(input('Digite o lado do segundo cateto: '))
 
 h = (cateto1**2) + (cateto2**2)
 print(f'A hipotenusa é {math.sqrt(h):.2f}')
+
+# exercicio 18
 
 c = int(input('Digite o valor do angulo:'))
 
